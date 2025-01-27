@@ -1,6 +1,6 @@
 {
   "name": "component-transition-animation",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "animations a fade-out-in transition between tabs",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
