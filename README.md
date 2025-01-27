@@ -4,6 +4,8 @@
 ComponentTransitionAnimation creates a fade out-in transition animation between components to help create a better user experience
 
 ### Example
+https://github.com/user-attachments/assets/c9904428-5bba-4d63-a1fc-87effdab5a77
+
 
 ### Prerequisites
 - Node.js (>= 16.x)
