@@ -82,7 +82,7 @@ const ComponentTransitionAnimation = ({
             style={{
               opacity,
               display: 'flex',
-              transition: `opacity ${transitionDuration_}s ${animationType_}`,
+              transition: `opacity ${transitionDuration_}ms ${animationType_}`,
               width: '100%',
               ...style_,
             }}
