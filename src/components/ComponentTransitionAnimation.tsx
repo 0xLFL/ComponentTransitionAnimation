@@ -1,7 +1,7 @@
 import React, { useCallback, useEffect, useState } from 'react';
 
 type TransitionTimingFunction = 
-  | 'ease'
+  'ease'
   | 'linear'
   | 'ease-in'
   | 'ease-out'
@@ -23,7 +23,7 @@ interface ComponentTransitionAnimationProps {
  * The components transition with the specified duration and animation type.
  *
  * @typedef {object} ComponentTransitionAnimationProps
- * @param {React.ReactNode[]} components - The array of components that are having their transtions animated
+ * @param {React.ReactNode[]} components - Array of components that are having their transtions animated
  * @param {number} currentStep - The index of the component that is currently displayed.
  * @param {number} [transitionDuration] - The duration of the transition in milliseconds. Defaults to 1000ms if not defined.
  * @param {React.CSSProperties} [style] - The styles to apply to the wrapper of the displayed component.
